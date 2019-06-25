@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Objective">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="15dp"
+        android:text="objective"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:textSize="18dp"
+        android:text="Select an objective of your choice : ( Tap To Find More Options )" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="10dp"
+        android:text="To build a long-term career in [specific industry] with opportunities for career growth."
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#f7d40e"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="10dp"
+        android:text="To enhance my educational and professional skills in a stable and dynamic workplace."
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#32f23f"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="10dp"
+        android:text="To solve problems in a creative and effective manner in a challenging position."
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#f7d40e"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="10dp"
+        android:text="To obtain employment with a company that offers a positive atmosphere to learn and implement new skills and technologies for the betterment of the organization."
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#32f23f"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="160dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="#1567f7"
+        android:padding="7dp"
+        android:text="SAVE"
+        android:textColor="@android:color/white"
+
+        android:textSize="18sp" />
+
+
+</FrameLayout>

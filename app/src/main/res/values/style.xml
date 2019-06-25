@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MedWhiteFont">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="StyleTextBox">
+        <item name="android:state_enabled">true</item>
+        <item name="android:state_focused">true</item>
+        <item name="android:solidColor">#ffffff</item>
+        <item name="android:shape">rectangle</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:strokeColor">#ffa0a496</item>
+        <item name="android:bottomLeftRadius">15dp</item>
+        <item name="android:bottomRightRadius">15dp</item>
+        <item name="android:topLeftRadius">15dp</item>
+        <item name="android:topRightRadius">15dp</item>
+    </style>
+
+    <style name="MedYellowFont">
+        <item name="android:textColor">#f4dc42</item>
+    </style>
+
+</resources>

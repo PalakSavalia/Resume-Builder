@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.palak.resumebuilder">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InterviewPage"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".CreateResumePage"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".PersonalInfo"
+            android:parentActivityName=".CreateResumePage" />
+        <activity
+            android:name=".RateUsPage"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".TechnicalSkills"
+            android:parentActivityName=".CreateResumePage" />
+        <activity
+            android:name=".Objective"
+            android:parentActivityName=".CreateResumePage" />
+        <activity
+            android:name=".SharePage"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".Education"
+            android:parentActivityName=".CreateResumePage" />
+        <activity
+            android:name=".Interests"
+            android:parentActivityName=".CreateResumePage" />
+        <activity
+            android:name=".Projects"
+            android:parentActivityName=".CreateResumePage" />
+        <activity
+            android:name=".Achievements"
+            android:parentActivityName=".CreateResumePage" />
+        <activity
+            android:name=".References"
+            android:parentActivityName=".CreateResumePage" />
+        <activity
+            android:name=".GenerateResumePage"
+            android:parentActivityName=".CreateResumePage" />
+        <activity
+            android:name=".DownloadPage"
+            android:parentActivityName=".HomePage" />
+        <activity android:name=".CVPage"></activity>
+    </application>
+
+</manifest>

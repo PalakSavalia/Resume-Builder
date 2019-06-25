@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".HomePage"
+    android:background="@drawable/h5"
+
+    android:id = "@+id/r1"
+    >
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_weight="1"
+        android:text="Welcome :)"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_weight="1"
+        android:text="Resume Builder"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b2"
+        android:background="@drawable/btn_bg"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/b1"
+        android:layout_marginEnd="35dp"
+        android:text="Cover Letter"
+        android:textSize="16sp"
+        tools:clickable="true"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:background="@drawable/btn_bg"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="190dp"
+        android:text="Create Resume"
+        tools:clickable="true"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:background="@drawable/btn_bg"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/b1"
+        android:layout_marginBottom="220dp"
+        android:text="Downloads"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="220dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Interview Ques"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/b1"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/btn_bg"
+
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Rate Us"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Invite Friends"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:layout_width="155dp" />
+
+
+
+
+
+</RelativeLayout>

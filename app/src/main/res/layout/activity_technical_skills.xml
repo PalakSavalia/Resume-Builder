@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TechnicalSkills">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_row="0"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:text="TECHNICAL"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_row="0"
+        android:padding="10dp"
+        android:paddingLeft="15dp"
+        android:text="SKILLS"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:padding="10dp"
+        android:paddingLeft="15dp"
+        android:text="Programming Languages"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_marginTop="15dp"
+        android:layout_row="1"
+        android:padding="10dp"
+        android:text="Software Proficiency"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_column="0"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="2"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="ADD"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="76dp"
+        android:layout_height="40dp"
+        android:layout_column="1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="2"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="ADD"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:padding="10dp"
+        android:paddingLeft="15dp"
+        android:text="Common OS"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_marginTop="15dp"
+        android:layout_row="3"
+        android:padding="10dp"
+        android:text="Data Analysis"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_column="0"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="4"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="ADD"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="76dp"
+        android:layout_height="40dp"
+        android:layout_column="1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="4"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="ADD"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:padding="10dp"
+        android:paddingLeft="15dp"
+        android:text="Analytical       Skills"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_marginTop="15dp"
+        android:layout_row="5"
+        android:padding="10dp"
+        android:text="Project Management"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_column="0"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="6"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="ADD"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="76dp"
+        android:layout_height="40dp"
+        android:layout_column="1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="6"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="ADD"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:padding="10dp"
+        android:paddingLeft="15dp"
+        android:text="Technical    Writing"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_marginTop="15dp"
+        android:layout_row="7"
+        android:padding="10dp"
+        android:text="Social Media Experience"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_column="0"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="8"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="ADD"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="76dp"
+        android:layout_height="40dp"
+        android:layout_column="1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="8"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="ADD"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+</GridLayout>
